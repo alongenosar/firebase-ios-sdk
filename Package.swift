@@ -21,7 +21,7 @@ let firebaseVersion = "8.4.0"
 
 let package = Package(
   name: "Firebase",
-  platforms: [.iOS(.v11), .iOS(.v13), .macOS(.v10_12), .tvOS(.v10), .watchOS(.v7)],
+  platforms: [.iOS(.v13), .macOS(.v10_12), .tvOS(.v10), .watchOS(.v7)],
   products: [
     .library(
       name: "FirebaseAnalytics",
